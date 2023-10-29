@@ -1,1 +1,1 @@
-# deity
+# deity project
