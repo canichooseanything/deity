@@ -1,5 +1,4 @@
 local placeId = tostring(game.placeId)
-if not libraryaccess or deity_premium[placeId] then print(libraryaccess,deity_premium[placeId]) return end
-local func = placefunc 
-print(func)
+if not libraryaccess or not deity_premium[placeId] then return end
+local func = placefunc or error("cannot get function")
 print('premiuM!!!!!!!!!')
